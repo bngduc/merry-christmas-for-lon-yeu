@@ -519,7 +519,7 @@
             });
 
             const cameraUtils = new Camera(video, {
-                onFrame: async () => { await hands.send({image: video}); }, width: 320, height: 240
+                onFrame: async () => { await hands.send({image: video}); }, width: 960, height: 480
             });
             cameraUtils.start();
         }
